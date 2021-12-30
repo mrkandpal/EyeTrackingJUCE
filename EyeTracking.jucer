@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="x2tptr" name="EyeTracking" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="Co5Yvx" name="EyeTracking">
+    <GROUP id="{8FFD1A07-AA38-BDC5-34EF-DBEC726793FF}" name="Source">
+      <FILE id="sYhBjp" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="p2XQhu" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="Ttuv1m" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="sZdEam" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="JMjrTU" name="EyeTrack.cpp" compile="1" resource="0" file="Source/EyeTrack.cpp"/>
+      <FILE id="LL0alt" name="EyeTrack.h" compile="0" resource="0" file="Source/EyeTrack.h"/>
+      <FILE id="KbrG0R" name="tobii_research_calibration.h" compile="0" resource="0"
+            file="Source/tobii_research_calibration.h"/>
+      <FILE id="P34ess" name="tobii_research_eyetracker.h" compile="0" resource="0"
+            file="Source/tobii_research_eyetracker.h"/>
+      <FILE id="nypvJT" name="tobii_research_streams.h" compile="0" resource="0"
+            file="Source/tobii_research_streams.h"/>
+      <FILE id="wxAmCp" name="tobii_research.h" compile="0" resource="0"
+            file="Source/tobii_research.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="EyeTracking" libraryPath="C:\Users\ll\Desktop\Devansh\Tobii Pro SDK\64\lib\tobii_research.lib"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="EyeTracking" libraryPath="C:\Users\ll\Desktop\Devansh\Tobii Pro SDK\64\lib\tobii_research.lib"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../juce-6.1.4-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../juce-6.1.4-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../juce-6.1.4-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../juce-6.1.4-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../juce-6.1.4-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../juce-6.1.4-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../juce-6.1.4-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../juce-6.1.4-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../juce-6.1.4-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../juce-6.1.4-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../juce-6.1.4-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../juce-6.1.4-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../juce-6.1.4-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_osc" path="../../juce-6.1.4-windows/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_osc" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
